@@ -1,0 +1,81 @@
+{
+  "name": "pi-community",
+  "owner": {
+    "name": "Dimension"
+  },
+  "metadata": {
+    "description": "Curated community extensions from the Pi (pi-mono) ecosystem — Dimension's grandparent. Every entry is source-reviewed, MIT-licensed, pinned to a reviewed commit, and verified to load in OMP/Dimension (ACP-safe: the extension's job survives outside the TUI).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "apply-patch-tool",
+      "source": {
+        "source": "git-subdir",
+        "url": "kcosr/pi-extensions",
+        "path": "apply-patch-tool",
+        "sha": "0ff3627287a1cf95b7e15851e2617266716f8436"
+      },
+      "description": "Codex-style apply_patch tool with prompt guidance injection — structured multi-file patches as a first-class tool.",
+      "version": "0.2.5",
+      "author": {
+        "name": "kcosr"
+      },
+      "repository": "https://github.com/kcosr/pi-extensions",
+      "license": "MIT",
+      "category": "tools",
+      "keywords": [
+        "patch",
+        "apply-patch",
+        "codex",
+        "editing"
+      ]
+    },
+    {
+      "name": "pi-web-access",
+      "source": {
+        "source": "github",
+        "repo": "nicobailon/pi-web-access",
+        "sha": "7bdc30a65cf77273eb9c0034647b373bda4060d7"
+      },
+      "description": "Web search, URL fetching, GitHub repo cloning, PDF extraction, and YouTube understanding. Bring-your-own key: OpenAI, Brave, Parallel, Tavily, Exa, Perplexity, or Gemini.",
+      "version": "0.13.0",
+      "author": {
+        "name": "Nico Bailon"
+      },
+      "repository": "https://github.com/nicobailon/pi-web-access",
+      "license": "MIT",
+      "category": "connectors",
+      "keywords": [
+        "web-search",
+        "fetch",
+        "pdf",
+        "youtube",
+        "scraping"
+      ]
+    },
+    {
+      "name": "pi-permission-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "gotgenes/pi-packages",
+        "path": "packages/pi-permission-system",
+        "sha": "f2a2a65fc9c424907c5899306118764bfc619e9a"
+      },
+      "description": "Policy-based permission enforcement for agent tool calls — allow/deny/ask rules with tree-sitter-accurate bash command parsing.",
+      "version": "18.0.2",
+      "author": {
+        "name": "Chris Lasher"
+      },
+      "repository": "https://github.com/gotgenes/pi-packages",
+      "license": "MIT",
+      "category": "security",
+      "keywords": [
+        "permissions",
+        "policy",
+        "access-control",
+        "security"
+      ]
+    }
+  ]
+}
