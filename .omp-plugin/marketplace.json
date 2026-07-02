@@ -32,29 +32,6 @@
       ]
     },
     {
-      "name": "pi-web-access",
-      "source": {
-        "source": "github",
-        "repo": "nicobailon/pi-web-access",
-        "sha": "7bdc30a65cf77273eb9c0034647b373bda4060d7"
-      },
-      "description": "Web search, URL fetching, GitHub repo cloning, PDF extraction, and YouTube understanding. Bring-your-own key: OpenAI, Brave, Parallel, Tavily, Exa, Perplexity, or Gemini.",
-      "version": "0.13.0",
-      "author": {
-        "name": "Nico Bailon"
-      },
-      "repository": "https://github.com/nicobailon/pi-web-access",
-      "license": "MIT",
-      "category": "connectors",
-      "keywords": [
-        "web-search",
-        "fetch",
-        "pdf",
-        "youtube",
-        "scraping"
-      ]
-    },
-    {
       "name": "pi-permission-system",
       "source": {
         "source": "git-subdir",

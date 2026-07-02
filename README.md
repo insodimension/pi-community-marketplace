@@ -10,7 +10,7 @@ In Dimension (or any OMP agent):
 
 ```
 /marketplace add insodimension/pi-community-marketplace
-/marketplace install pi-web-access@pi-community
+/marketplace install pi-permission-system@pi-community
 ```
 
 ## Curation bar
@@ -30,7 +30,6 @@ Every entry must pass all four before it ships:
 | Plugin | Author | What it does | Review notes |
 |---|---|---|---|
 | `apply-patch-tool` | [kcosr](https://github.com/kcosr/pi-extensions) | Codex-style `apply_patch` tool + prompt guidance | Pure tool + prompt injection; zero deps; verified loading unmodified in OMP |
-| `pi-web-access` | [Nico Bailon](https://github.com/nicobailon/pi-web-access) | Web search / fetch / PDF / YouTube (BYO key) | Keys are user-supplied env/config; Chrome-cookie Gemini auth is **opt-in**; ships SSRF allow-range tests |
 | `pi-permission-system` | [Chris Lasher](https://github.com/gotgenes/pi-packages) | Policy-based tool-call permission enforcement | Pure policy engine; no exec/network in src; tree-sitter bash parsing |
 
 ## Reviewed-but-excluded (and why)
@@ -39,6 +38,8 @@ Every entry must pass all four before it ships:
   (`ctx.ui.custom`); nothing left under ACP.
 - `toolwatch` (kcosr) — `file:./common` dep needs a postinstall build; conflicts with
   untrusted-lifecycle-scripts policy.
+- `pi-web-access` — imports `@earendil-works/pi-ai/compat` (upstream Pi 0.80.x compat
+  entrypoint the OMP engine does not ship); revisit if a compat shim lands.
 - `pi-simplify`, `pi-lens` — loadable only from built npm artifacts (`dist/`), not git
   source; revisit when npm plugin sources land.
 - `pi-mcp-adapter`, `pi-subagents`, rpiv todo/ask — redundant: OMP ships native MCP,
