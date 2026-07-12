@@ -1,0 +1,391 @@
+{
+  "name": "skills-sh",
+  "owner": {
+    "name": "skills.sh community"
+  },
+  "metadata": {
+    "description": "Curated agent skills from the skills.sh directory — trusted orgs plus the most-installed community skills, each installable as an OMP skills plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "anthropics-skills",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "description": "17 skills from anthropics/skills · 638.7K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "algorithmic-art",
+        "brand-guidelines",
+        "canvas-design",
+        "claude-api",
+        "doc-coauthoring",
+        "docx",
+        "frontend-design",
+        "internal-comms",
+        "mcp-builder",
+        "pdf",
+        "pptx",
+        "skill-creator"
+      ],
+      "homepage": "https://skills.sh/anthropics/skills"
+    },
+    {
+      "name": "arvindrk-extract-design-system",
+      "source": {
+        "source": "github",
+        "repo": "arvindrk/extract-design-system"
+      },
+      "description": "1 skill from arvindrk/extract-design-system · 124.9K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "extract-design-system"
+      ],
+      "homepage": "https://skills.sh/arvindrk/extract-design-system"
+    },
+    {
+      "name": "emilkowalski-skills",
+      "source": {
+        "source": "github",
+        "repo": "emilkowalski/skills"
+      },
+      "description": "3 skills from emilkowalski/skills · 121.5K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "animation-vocabulary",
+        "emil-design-eng",
+        "review-animations"
+      ],
+      "homepage": "https://skills.sh/emilkowalski/skills"
+    },
+    {
+      "name": "firebase-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "firebase/agent-skills"
+      },
+      "description": "11 skills from firebase/agent-skills · 65.2K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "firebase-ai-logic-basics",
+        "firebase-app-hosting-basics",
+        "firebase-auth-basics",
+        "firebase-basics",
+        "firebase-crashlytics",
+        "firebase-data-connect-basics",
+        "firebase-firestore",
+        "firebase-hosting-basics",
+        "firebase-remote-config-basics",
+        "firebase-security-rules-auditor",
+        "xcode-project-setup"
+      ],
+      "homepage": "https://skills.sh/firebase/agent-skills"
+    },
+    {
+      "name": "get-convex-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "get-convex/agent-skills"
+      },
+      "description": "6 skills from get-convex/agent-skills · 80.5K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "convex",
+        "convex-create-component",
+        "convex-migration-helper",
+        "convex-performance-audit",
+        "convex-quickstart",
+        "convex-setup-auth"
+      ],
+      "homepage": "https://skills.sh/get-convex/agent-skills"
+    },
+    {
+      "name": "google-agents-cli",
+      "source": {
+        "source": "github",
+        "repo": "google/agents-cli"
+      },
+      "description": "7 skills from google/agents-cli · 47.7K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "google-agents-cli-adk-code",
+        "google-agents-cli-deploy",
+        "google-agents-cli-eval",
+        "google-agents-cli-observability",
+        "google-agents-cli-publish",
+        "google-agents-cli-scaffold",
+        "google-agents-cli-workflow"
+      ],
+      "homepage": "https://skills.sh/google/agents-cli"
+    },
+    {
+      "name": "heygen-com-hyperframes",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
+      },
+      "description": "20 skills from heygen-com/hyperframes · 68.9K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "embedded-captions",
+        "faceless-explainer",
+        "figma",
+        "general-video",
+        "hyperframes",
+        "hyperframes-animation",
+        "hyperframes-cli",
+        "hyperframes-core",
+        "hyperframes-creative",
+        "hyperframes-keyframes",
+        "hyperframes-registry",
+        "media-use"
+      ],
+      "homepage": "https://skills.sh/heygen-com/hyperframes"
+    },
+    {
+      "name": "intellectronica-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "intellectronica/agent-skills"
+      },
+      "description": "22 skills from intellectronica/agent-skills · 52.8K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "anki-connect",
+        "beautiful-mermaid",
+        "context7",
+        "copilot-sdk",
+        "gog-cli",
+        "gpt-image-1-5",
+        "here-be-git",
+        "lorem-ipsum",
+        "markdown-converter",
+        "mgrep-code-search",
+        "monologue-notes-api",
+        "nano-banana-2"
+      ],
+      "homepage": "https://skills.sh/intellectronica/agent-skills"
+    },
+    {
+      "name": "juliusbrussee-caveman",
+      "source": {
+        "source": "github",
+        "repo": "juliusbrussee/caveman"
+      },
+      "description": "7 skills from juliusbrussee/caveman · 221.2K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "cavecrew",
+        "caveman",
+        "caveman-commit",
+        "caveman-compress",
+        "caveman-help",
+        "caveman-review",
+        "caveman-stats"
+      ],
+      "homepage": "https://skills.sh/juliusbrussee/caveman"
+    },
+    {
+      "name": "larksuite-cli",
+      "source": {
+        "source": "github",
+        "repo": "larksuite/cli"
+      },
+      "description": "27 skills from larksuite/cli · 323.8K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "lark-approval",
+        "lark-apps",
+        "lark-attendance",
+        "lark-base",
+        "lark-calendar",
+        "lark-contact",
+        "lark-doc",
+        "lark-drive",
+        "lark-event",
+        "lark-im",
+        "lark-mail",
+        "lark-markdown"
+      ],
+      "homepage": "https://skills.sh/larksuite/cli"
+    },
+    {
+      "name": "leonxlnx-taste-skill",
+      "source": {
+        "source": "github",
+        "repo": "leonxlnx/taste-skill"
+      },
+      "description": "13 skills from leonxlnx/taste-skill · 233.3K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "brandkit",
+        "brutalist-skill",
+        "gpt-tasteskill",
+        "image-to-code-skill",
+        "imagegen-frontend-mobile",
+        "imagegen-frontend-web",
+        "minimalist-skill",
+        "output-skill",
+        "redesign-skill",
+        "soft-skill",
+        "stitch-skill",
+        "taste-skill"
+      ],
+      "homepage": "https://skills.sh/leonxlnx/taste-skill"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "description": "6 skills from mattpocock/skills · 114.5K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "deprecated",
+        "engineering",
+        "in-progress",
+        "misc",
+        "personal",
+        "productivity"
+      ],
+      "homepage": "https://skills.sh/mattpocock/skills"
+    },
+    {
+      "name": "microsoft-azure-skills",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/azure-skills"
+      },
+      "description": "28 skills from microsoft/azure-skills · 435.2K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "airunway-aks-setup",
+        "appinsights-instrumentation",
+        "azure-ai",
+        "azure-aigateway",
+        "azure-cloud-migrate",
+        "azure-compliance",
+        "azure-compute",
+        "azure-cost",
+        "azure-deploy",
+        "azure-diagnostics",
+        "azure-enterprise-infra-planner",
+        "azure-hosted-copilot-sdk"
+      ],
+      "homepage": "https://skills.sh/microsoft/azure-skills"
+    },
+    {
+      "name": "neondatabase-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "neondatabase/agent-skills"
+      },
+      "description": "8 skills from neondatabase/agent-skills · 46.6K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "claimable-postgres",
+        "neon",
+        "neon-ai-gateway",
+        "neon-functions",
+        "neon-object-storage",
+        "neon-postgres",
+        "neon-postgres-branches",
+        "neon-postgres-egress-optimizer"
+      ],
+      "homepage": "https://skills.sh/neondatabase/agent-skills"
+    },
+    {
+      "name": "obra-superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "14 skills from obra/superpowers · 177.2K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "brainstorming",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "using-superpowers",
+        "verification-before-completion"
+      ],
+      "homepage": "https://skills.sh/obra/superpowers"
+    },
+    {
+      "name": "remotion-dev-skills",
+      "source": {
+        "source": "github",
+        "repo": "remotion-dev/skills"
+      },
+      "description": "1 skill from remotion-dev/skills · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "remotion"
+      ],
+      "homepage": "https://skills.sh/remotion-dev/skills"
+    },
+    {
+      "name": "supabase-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "supabase/agent-skills"
+      },
+      "description": "2 skills from supabase/agent-skills · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "supabase",
+        "supabase-postgres-best-practices"
+      ],
+      "homepage": "https://skills.sh/supabase/agent-skills"
+    },
+    {
+      "name": "vercel-labs-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "vercel-labs/agent-skills"
+      },
+      "description": "9 skills from vercel-labs/agent-skills · 534.3K installs · via skills.sh",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "composition-patterns",
+        "deploy-to-vercel",
+        "react-best-practices",
+        "react-native-skills",
+        "react-view-transitions",
+        "vercel-cli-with-tokens",
+        "vercel-optimize",
+        "web-design-guidelines",
+        "writing-guidelines"
+      ],
+      "homepage": "https://skills.sh/vercel-labs/agent-skills"
+    }
+  ]
+}
